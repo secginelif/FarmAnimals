@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+
+body {
+    background-image: url(./images/farm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.img {
+    position: absolute;
+    height: auto  ; 
+}
+
+.horse{
+    transform: translate(70rem,22rem);
+    width: 10.3%;
+    z-index: 1;
+
+}
+.cat {
+    width: 7%;
+    transform: translate(24rem,29rem);
+    z-index: 2;
+}
+
+.man {
+    width: 12%;
+    transform: translate(52rem,30rem);
+    z-index: 13;
+    background:transparent;
+
+}
+
+.cow {
+    width: 15%;
+    transform: translate(40rem,26rem);
+    z-index: -1;
+}
+
+.dog{
+    transform: translate(33rem,36rem);
+    width: 8%;
+}
+
+.pig {
+    width: 15%;
+    transform: translate(79rem,34rem);
+}
+
+.sheep {
+    width: 9%;
+    transform: translate(65rem,35rem);
+    z-index: 7;
+}
+
+.rooster {
+    width: 7%;
+    transform: translate(4rem, 27rem);
+}
+
+.chicken {
+    width: 6%;
+    transform: translate(12rem, 34rem);
+    z-index: 5;
+}
+
+.chick {
+    width: 10%;
+    transform: translate(11rem, 40rem);
+}
+
+.after {
+    opacity: 3;
+    filter: brightness(1.1);
+
+}
+
+
+
+
